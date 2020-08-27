@@ -56,7 +56,7 @@ const Pesquisa = () =>{
            <input type='text' className='p-4 px-10 block shadow bg-gray-400 my-2 rounded-lg' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome} />
         
            <label className='font-bold'>Email:</label> 
-           <input type='text' className='p-4 px-10 block shadow bg-gray-400 my-2 rounded-lg' placeholder='Email' onChange={onChange} name='Email' value={form.Email}/>           
+           <input id='emailAddress' type='email' className='p-4 px-10 block shadow bg-gray-400 my-2 rounded-lg' placeholder='Email' onChange={onChange} name='Email' value={form.Email}/>           
            
            <label className='font-bold'>Whatsapp:</label>
            <input type='text' className='p-4 px-10 block shadow bg-gray-400 my-2 rounded-lg' placeholder='Whatsapp' onChange={onChange} name='Whatsapp' value={form.Whatsapp} /> 

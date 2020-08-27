@@ -6,11 +6,11 @@ const Sobre = () => {
     return (
            <div> 
              <PageTitle title='Sobre' />
-             <h1> Sobre </h1>
+             
              <div>
-              <p>
+              <p className='text-center my-10'>
                 Projeto realizado durante a Semana FullStack Master, ministrada por Túlio Faria.
-              
+
               </p>
             </div>
           </div>

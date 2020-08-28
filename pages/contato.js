@@ -8,11 +8,6 @@ const Contato = () => {
             <PageTitle title='Contato' />
             <h1 className='my-10'>Telefone: 99999-9999</h1>
             <h1 className='my-10'>E-mail: sfm@sfm.com</h1>
-            <div>
-                <Link href='/'>
-                    <a>Home</a>
-                </Link>
-            </div>
         </div>
     )
 }
